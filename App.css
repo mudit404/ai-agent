@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.App > div {
+  flex: 1;
+  padding: 20px;
+}
+
+.App > div:first-child {
+  flex: 0.2;
+  border-right: 1px solid #ccc;
+}
